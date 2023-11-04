@@ -1,0 +1,225 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url('fonts/Roboto/Roboto-Regular.ttf');
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #F9F9F9;
+}
+
+.left-menu {
+    width: 16%;
+    height: 100%;
+    background-color: #E59D59;
+    border-top-right-radius: 25px;
+}
+
+.list-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item {
+    width: 120px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+
+}
+
+.txt-menu-container{
+    width:100px;
+    margin-left: 14px;
+}
+.txt-menu:hover{
+    text-decoration: underline;
+}
+.txt-menu {
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    color: #F9F9F9;
+    margin: 0;
+    text-decoration: none;
+}
+
+.habit-list-container{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+
+.habit-list-item{
+    width: 85%;
+    height: 61px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.habit-list-item:not(:last-child) { /* Cela ajoutera une bordure à tous les éléments sauf le dernier */
+    border-bottom: 0.8px solid #1A242A; /* Remplacez #cccccc par la couleur de bordure que vous souhaitez */
+}
+
+.txt-container{
+    width: auto;
+    line-height: 61px;
+    vertical-align: middle;
+}
+
+.btn-container{
+    width: 275px;
+    display: flex;
+    line-height: 61px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.txt-header {
+    font-family: Roboto-Bold;
+    font-size: 24px;
+    color: #1A242A;
+    margin: 0;
+}
+
+.btn-header1{
+    width: 77px;
+    height: 33px;
+    background-color: #1A242A;
+    color: #F9F9F9;
+    font-family: Roboto-Regular;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.btn-header2{
+    width: 163px;
+    height: 33px;
+    background-color: #1A242A;
+    color: #F9F9F9;
+    font-family: Roboto-Regular;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.btn-habit{
+    width: 77px;
+    height: 37px;
+    background-color: #1A242A;
+    color: #F9F9F9;
+    font-family: Roboto-Regular;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.btn-habit:hover{
+    background-color: #E59D59;
+}
+
+.txt-item {
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    color: #1A242A;
+    margin: 0;
+}
+
+.stats-container{
+    width: 24%;
+    height: 100%;
+    background-color: #1A242A;
+    border-top-left-radius: 25px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.stats-list-container{
+    width: 90%;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stats-list-item-pt-a{
+    width: 100%;
+    height: 123px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats-list-item-ch-a{
+    width: 100%;
+    height: 95px;
+    background-color: #E59D59;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.txt-stats-container{
+    height: auto;
+    width: 317px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-stats{
+    font-family: Roboto-Regular;
+    font-size: 24px;
+    color: #F9F9F9;
+    margin: 0;
+}
+
+.stats-list-item-pt-b{
+    width: 100%;
+    height: 108px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats-list-item-ch-b{
+    width: 100%;
+    height: 70px;
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.stats-list-item-pt-c{
+    width: 100%;
+    height: 269px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats-list-item-ch-c{
+    width: 100%;
+    height: 241px;
+    background-color: #E59D59;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
